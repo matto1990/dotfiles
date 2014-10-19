@@ -15,4 +15,46 @@ fi
 # Install homebrew packages
 brew install grc coreutils spark
 
+# Check for homebrew casks
+if test ! $(brew cask)
+then
+    echo "  Installing Homebrew Casks for you."
+    brew install caskroom/cask/brew-cask
+    brew tap caskroom/versions
+fi
+
+# Apps
+apps=(
+  alfred
+  caffeine
+  crashlytics
+  dropbox
+  flash
+  flux
+  genymotion
+  google-chrome
+  handbrake
+  iterm2
+  keepassx
+  lightpaper
+  mailbox
+  mongohub
+  paw
+  qlcolorcode
+  qlmarkdown
+  quicklook-json
+  sketch
+  skype
+  slack
+  spotify
+  sublime-text3
+  the-unarchiver
+  transmission
+  vlc
+)
+
+# Install apps to /Applications
+echo "installing apps..."
+brew cask install --appdir="/Applications" ${apps[@]}
+
 exit 0
