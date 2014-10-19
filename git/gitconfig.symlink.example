@@ -10,10 +10,11 @@
         helper = GIT_CREDENTIAL_HELPER
 [alias]
         co = checkout
-        promote = !$ZSH/bin/git-promote
-        wtf     = !$ZSH/bin/git-wtf
+        promote           = !$ZSH/bin/git-promote
+        wtf               = !$ZSH/bin/git-wtf
+        watch             = !$ZSH/bin/git-watch
         rank-contributors = !$ZSH/bin/git-rank-contributors
-        count   = !git shortlog -sn
+        count             = !git shortlog -sn
 [color]
         diff = auto
         status = auto
