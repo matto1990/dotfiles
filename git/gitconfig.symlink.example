@@ -19,17 +19,22 @@
         status = auto
         branch = auto
         ui = true
+[push]
+        default = simple
 [core]
         excludesfile = ~/.gitignore
-        editor = vim
+        editor = subl -nw
 [apply]
         whitespace = nowarn
 [mergetool]
         keepBackup = false
+[merge "mergepbx"]
+        name = XCode project files merger
+        driver = mergepbx %O %A %B
 [difftool]
         prompt = false
 [help]
-        autocorrect = 1
+        autocorrect = -1
 [push]
         # See `git help config` (search for push.default)
         # for more information on different options of the below setting.
