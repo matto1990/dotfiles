@@ -3,5 +3,5 @@
 if [ "$(which git)" != "$(brew --prefix)/bin/git" ]
 then
   echo "  Installing git from homebrew."
-  brew install git > /tmp/git-install.log
+  brew install git
 fi
