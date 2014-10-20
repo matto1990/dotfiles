@@ -21,6 +21,7 @@ then
     echo "  Installing Homebrew Casks for you."
     brew install caskroom/cask/brew-cask
     brew tap caskroom/versions
+    brew cask alfred link
 fi
 
 # Apps
@@ -50,6 +51,7 @@ apps=(
   sublime-text3
   the-unarchiver
   transmission
+  virtualbox
   vlc
 )
 
