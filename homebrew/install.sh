@@ -26,6 +26,7 @@ fi
 
 # Apps
 apps=(
+  airfoil
   alfred
   caffeine
   crashlytics
