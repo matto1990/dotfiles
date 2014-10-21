@@ -4,24 +4,21 @@
 [hub]
         protocol = https
 [user]
-        name = AUTHORNAME
-        email = AUTHOREMAIL
+        name = Matt Oakes
+        email = matt@ribot.co.uk
 [credential]
-        helper = GIT_CREDENTIAL_HELPER
+        helper = osxkeychain
 [alias]
         co = checkout
-        promote           = !$ZSH/bin/git-promote
-        wtf               = !$ZSH/bin/git-wtf
-        watch             = !$ZSH/bin/git-watch
+        promote = !$ZSH/bin/git-promote
+        wtf     = !$ZSH/bin/git-wtf
         rank-contributors = !$ZSH/bin/git-rank-contributors
-        count             = !git shortlog -sn
+        count   = !git shortlog -sn
 [color]
         diff = auto
         status = auto
         branch = auto
         ui = true
-[push]
-        default = simple
 [core]
         excludesfile = ~/.gitignore
         editor = subl -nw
@@ -35,7 +32,7 @@
 [difftool]
         prompt = false
 [help]
-        autocorrect = -1
+        autocorrect = 1
 [push]
         # See `git help config` (search for push.default)
         # for more information on different options of the below setting.
