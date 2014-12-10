@@ -1,6 +1,6 @@
 #!/bin/bash
 while :;
     do clear;
-    git status;
+    git status -sb;
     sleep 1;
 done
