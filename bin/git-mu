@@ -1,0 +1,4 @@
+git co master
+git pull
+git-delete-local-merged
+git remote prune origin

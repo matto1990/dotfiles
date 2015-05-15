@@ -28,7 +28,7 @@
         keepBackup = false
 [merge "mergepbx"]
         name = XCode project files merger
-        driver = mergepbx %O %A %B
+        driver = mergepbx --dump ~/mergepbxdump.zip --clean %O %A %B
 [difftool]
         prompt = false
 [help]

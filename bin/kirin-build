@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/local/Cellar/node/0.10.32/bin/node /Users/matt/Projects/OS/Kirin/Kirin/node_modules/kirin/node_modules/kirin-build/bin/kirin-build.js $@

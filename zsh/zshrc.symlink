@@ -57,3 +57,5 @@ do
 done
 
 unset config_files
+
+export PATH=$PATH:$HOME/Applications/arcanist/arcanist/bin
