@@ -49,6 +49,7 @@ done
 # initialize autocomplete here, otherwise functions won't be loaded
 autoload -U compinit
 compinit
+zmodload -i zsh/complist
 
 # load every completion after autocomplete loads
 for file in ${(M)config_files:#*/completion.zsh}
@@ -58,4 +59,6 @@ done
 
 unset config_files
 
-export PATH=$PATH:$HOME/Applications/arcanist/arcanist/bin
+export PATH=$PATH:$HOME/Applications/arcanist/arcanist/bin:$HOME/Applications/Developer/infer/infer/bin
+
+function git(){hub $@}

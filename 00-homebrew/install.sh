@@ -28,17 +28,16 @@ fi
 apps=(
   airfoil
   alfred
-  caffeine
-  crashlytics
   dropbox
+  fabric
   flash
-  flux
   genymotion
   google-chrome
   handbrake
   iterm2
-  keepassx
+  keepingyouawake
   lightpaper
+  macpass
   mailbox
   mongohub
   paw
