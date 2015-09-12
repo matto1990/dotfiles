@@ -1,9 +1,7 @@
 #!/bin/sh
-#
-# Homebrew
-#
-# This installs some of the common dependencies needed (or at least desired)
-# using Homebrew.
+
+# Setup Oh My Zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Check for Homebrew
 if test ! $(which brew)
@@ -13,7 +11,7 @@ then
 fi
 
 # Install homebrew packages
-brew install grc coreutils spark
+brew install grc coreutils
 
 # Check for homebrew casks
 if test ! $(brew cask)
@@ -26,11 +24,9 @@ fi
 
 # Apps
 apps=(
-  airfoil
   alfred
   dropbox
   fabric
-  flash
   genymotion
   google-chrome
   handbrake
@@ -39,12 +35,10 @@ apps=(
   lightpaper
   macpass
   mailbox
-  mongohub
   paw
   qlcolorcode
   qlmarkdown
   quicklook-json
-  sketch
   skype
   slack
   spotify
