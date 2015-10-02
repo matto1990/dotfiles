@@ -12,8 +12,11 @@ then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+# Install custom taps
+brew tap karan/karan
+
 # Install homebrew packages
-brew install grc coreutils spark
+brew install grc coreutils spark gitignore
 
 # Check for homebrew casks
 if test ! $(brew cask)
