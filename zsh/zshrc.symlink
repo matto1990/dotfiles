@@ -62,3 +62,9 @@ unset config_files
 export PATH=$PATH:$HOME/Applications/arcanist/arcanist/bin:$HOME/Applications/Developer/infer/infer/bin
 
 function git(){hub $@}
+
+# The next line updates PATH for the Google Cloud SDK.
+source '/Users/matt/google-cloud-sdk/path.zsh.inc'
+
+# The next line enables shell command completion for gcloud.
+source '/Users/matt/google-cloud-sdk/completion.zsh.inc'
