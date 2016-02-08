@@ -63,6 +63,8 @@ export PATH=$PATH:$HOME/Applications/arcanist/arcanist/bin:$HOME/Applications/De
 
 function git(){hub $@}
 
+export GOPATH=/Users/matt/Projects/go
+
 # The next line updates PATH for the Google Cloud SDK.
 source '/Users/matt/google-cloud-sdk/path.zsh.inc'
 
