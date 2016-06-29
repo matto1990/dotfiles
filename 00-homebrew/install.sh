@@ -28,24 +28,25 @@ fi
 # Apps
 apps=(
   alfred
+  atom
+  dashlane
   dropbox
   fabric
-  genymotion
   google-chrome
   handbrake
   iterm2
   keepingyouawake
-  lightpaper
   macpass
-  mailbox
   paw
   qlcolorcode
   qlmarkdown
   quicklook-json
+  sketch
   skype
   slack
   spotify
   sublime-text3
+  telegram
   the-unarchiver
   transmission
   virtualbox
