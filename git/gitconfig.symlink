@@ -5,7 +5,7 @@
         protocol = https
 [user]
         name = Matt Oakes
-        email = matt@ribot.co.uk
+        email = hello@mattoakes.net
 [credential]
         helper = osxkeychain
 [alias]
